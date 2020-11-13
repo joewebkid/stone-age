@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "IndustryBook";
+  src: url("../fonts/IndustryBook.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IndustryBook";
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #070606;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.headerContainer {
+  padding-left: 92px;
+  padding-right: 80px;
+}
+
+.header {
+  height: 107px;
+  background: #dfcfba;
+  display: flex;
+  align-items: center;
+}
+.inMainPage {
+  margin-top: 30px;
+}
+.logo {
+  width: 108px;
+  height: 78px;
+  object-fit: contain;
+}
+.brand {
+  display: flex;
+}
+.container {
+  max-width: 1400px;
+}
+.brandText {
+  width: 155px;
+  padding: 7px 10px;
+  height: 62px;
+  font: normal normal normal 18px/22px "IndustryBook";
+  letter-spacing: 0px;
+  color: #070606;
+  text-transform: uppercase;
+  margin-right: 62px;
+}
+
+.menuList {
+  display: flex;
+  justify-content: space-between;
+  color: #070606;
+  margin-top: 30px;
+}
+
+.menuElem {
+  text-transform: uppercase;
+  color: #070606;
+  margin: 0 18px;
+}
+
+.actionButton {
+  width: 234px;
+  height: 43px;
+  background: #dfcfba 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-top: 19px;
+  display: block;
+  text-align: center;
+}
+.tel {
+  text-decoration: none;
+  font-size: 20px;
+  font: normal normal normal 20px/24px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #070606;
+  margin-top: 7px;
+}
+
+/* ------ */
+.legend {
+}
