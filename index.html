@@ -11,11 +11,23 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
-
+  <link rel="import" href="./del.html">
   <title>Hello, world!</title>
 </head>
 
 <body>
+  <script>
+    var link = document.querySelector('link[rel=import]');
+    var content = link.import.querySelector('#intro-dm');
+    document.body.appendChild(content.cloneNode(true));
+  </script>
+
+  <style type="text/css">
+    .header {
+      position: absolute;
+      width: 100%;
+    }
+  </style>
 
   <div class="header inMainPage">
     <div class="container flexContainer headerContainer">
@@ -44,28 +56,82 @@
   
 
 
-  <div class="legend">
+  <div class="hero">
     <div class="backgroundBlock">
-      <div class="leftBack"></div>
-      <div class="rightBack"></div>
+      <div class="leftBack">
+        <img src="./images/150wooster-1-mobile-retina.jpeg" alt="">
+      </div>
+      <div class="rightBack">
+      </div>
     </div>
-    <div class="legendContainer">
-      <div class="legendRight">
-        <div class="legendText">Indiana limestone fabrication</div>
-        <div class="legendDescr">For new construction and restoration projects</div>
-        <div class="legendForm">
-          inpu
-          <div class="legendInput">EMAIL</div>
-          <div class="legendInput">NAME</div>
-          <div class="legendInput">PHONE</div>
-          <div class="legendSubmit">GET A QUOTE</div>
+    <div class="heroContainer">
+      <div class="heroRight">
+        <div class="heroText">Indiana limestone fabrication</div>
+        <div class="heroDescr">For new construction and restoration projects</div>
+        <div class="heroForm">
+          <input type="text" class="heroInput" placeholder="EMAIL">
+          <input type="text" class="heroInput" placeholder="NAME">
+          <input type="text" class="heroInput" placeholder="PHONE">
+          <button class="heroSubmit">GET A QUOTE</button>
           <div class="formDescription">
-            Get a Quote About Design, Fabrication and Installation.
+              <div class="formDescriptionContainer">
+                Get a Quote About Design, Fabrication and Installation.
+              </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+    <div class="container advantages">
+      <div class="row">
+        <div class="col-sm advBlock">
+          <div class="advImg"></div>
+          <div class="advText">
+            NYC’s leader in Indiana Limestone Fabrication
+          </div>
+        </div>
+        <div class="col-sm advBlock">
+          <div class="advImg"></div>
+          <div class="advText">
+            Founded in 1981
+          </div>
+        </div>
+        <div class="col-sm advBlock">
+          <div class="advImg"></div>
+          <div class="advText">
+            75 mileS radius of NYC
+          </div>
+        </div>
+        <div class="col-sm advBlock">
+          <div class="advImg"></div>
+          <div class="advText">
+            Own manufacturing
+          </div>
+        </div>
+        <div class="col-sm advBlock">
+          <div class="advImg"></div>
+          <div class="advText">
+            3rd generation of stone crafters
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="aboutUs">
+      <div class="aboutTextBlock">
+        <div class="headBlock">
+          <div class="aboutHeader">ABOUT US</div>
+        </div>
+        <div class="descrBlock">
+          Carnegie Architectural Stone LLC is New York City’s premier Limestone, Cast Stone and exterior granite fabricator. Founded in 1981 in upstate New York initially as a granite monument fabricators over years Carnegie joint ventured with NYC based cast stone manufacturer Stone Age. Today we are run by 2nd and 3rd generation of stone crafters with decades of industry experience and through continued capital improvements and emphasis on quality Carnegie Architectural Stone has emerged as NYC’s leader in Indiana Limestone Fabrication. Carnegie Architectural Stone LLC specializes in custom fabrication of Indiana Limestone, cast stone and granite for new construction and restoration projects. For more information visit us on contact page or gallery or in one our 2 locations: Offices and Showroom in Sunset Park, Brooklyn or manufacturing facility in Westtown NY.
+        </div>
+      </div>
+      <div class="aboutImgBlock"></div>
+    </div>
 
 
 
