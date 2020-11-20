@@ -2,6 +2,10 @@
   font-family: "IndustryBook";
   src: url("../fonts/IndustryBook.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Impact";
+  src: url("../fonts/Impact.ttf") format("truetype");
+}
 
 * {
   margin: 0;
@@ -103,7 +107,7 @@ a:hover {
 }
 .heroRight {
   padding-left: 835px;
-  padding-top: 36px;    
+  padding-top: 36px;
   padding-left: 52vw;
 }
 .heroText {
@@ -126,7 +130,7 @@ a:hover {
   margin-left: -140px;
   padding-bottom: 40px;
 }
-.heroForm {  
+.heroForm {
   width: 368px;
 }
 .heroInput {
@@ -141,8 +145,8 @@ a:hover {
 }
 .heroSubmit {
   font-size: 18px;
-  font-weight: bold; 
-  background: #dfcfba; 
+  font-weight: bold;
+  background: #dfcfba;
   width: 368px;
   height: 73px;
   box-shadow: 0px 3px 6px #00000093;
@@ -156,7 +160,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 90px;
-  width: 368px;  
+  width: 368px;
 }
 .formDescriptionContainer {
   width: 259px;
@@ -168,10 +172,10 @@ a:hover {
   padding: 40px 140px;
 }
 .backgroundBlock {
-  position: absolute;    
+  position: absolute;
   z-index: -1;
   display: flex;
-  background: url('../images/Background.jpeg');
+  background: url("../images/Background.jpeg");
   background-size: contain;
   width: 100%;
   height: 1000px;
@@ -206,4 +210,152 @@ a:hover {
 .advText {
   margin-top: 20px;
   height: 40px;
+}
+/* ------ */
+/* ---advantages--- */
+.aboutUs {
+  display: flex;
+  justify-content: center;
+}
+
+.headBlock {
+  position: relative;
+}
+
+.headBlockImg {
+  background: transparent url("../images/Asset 28.png") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+  width: 305px;
+  height: 250px;
+}
+
+.aboutHeader {
+  position: absolute;
+  font: normal normal normal 35pt Impact;
+  letter-spacing: 0px;
+  color: #020202;
+  text-transform: uppercase;
+  left: 260px;
+  white-space: nowrap;
+  top: 50px;
+}
+
+.descrBlock {
+  width: 340px;
+}
+
+.descrBlock p {
+  margin-top: 40px;
+}
+
+.aboutTextBlock {
+  /* max-width: 400px; */
+  padding-right: 165px;
+}
+
+.inBlockImages {
+  width: max-content;
+  height: auto;
+  margin-top: 50px;
+}
+/* ------ */
+.products {
+  margin-top: 160px;
+  text-align: center;
+}
+.productsHeader {
+  font-family: "Impact";
+  font-size: 40px;
+}
+
+.productsDescr {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 464px;
+  margin: auto;
+}
+
+.productsHeader::after {
+  background: transparent url("../images/Asset 30.png") 0% 0% no-repeat
+    padding-box;
+}
+
+.productsHeader::before {
+  background: transparent url("../images/Asset 30.png") 0% 0% no-repeat
+    padding-box;
+}
+.prContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+.prBlockImage {
+  width: 309px;
+  height: 435px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  border: 1px solid #707070;
+  background-size: 90% 90% !important;
+  background-position: center !important;
+  text-transform: uppercase;
+}
+
+.prImg1 {
+  background: transparent url("../images/Limestone.png") no-repeat;
+}
+
+.prImg2 {
+  background: transparent url("../images/Granite Stone.png") no-repeat;
+}
+
+.prImg3 {
+  background: transparent url("../images/Cast Stone.png") no-repeat;
+}
+
+.actionPrButton {
+  font-size: 18px;
+  width: 140px;
+  height: 40px;
+  color: #ffffff;
+  background: #070606 0% 0% no-repeat padding-box;
+  box-shadow: 6px 6px 6px #4d494929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin: 40px auto;
+  cursor: pointer;
+}
+
+/*  */
+.residental {
+  padding-right: 30px;
+}
+.comercia {
+  padding-left: 30px;
+}
+.portfolioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallHeader {
+  font-size: 44px;
+}
+.moreButton {
+  width: 206px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0px 6px 6px #00000080;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
