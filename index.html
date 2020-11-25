@@ -11,17 +11,13 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
-  <link rel="import" href="./del.html">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   <title>Hello, world!</title>
 </head>
 
 <body>
-  <script>
-    var link = document.querySelector('link[rel=import]');
-    var content = link.import.querySelector('#intro-dm');
-    document.body.appendChild(content.cloneNode(true));
-  </script>
-
   <style type="text/css">
     .header {
       position: absolute;
@@ -43,17 +39,19 @@
           <a class="menuElem" href="">Portfolio</a>
           <a class="menuElem" href="">Faq</a>
           <a class="menuElem" href="">Product</a>
-          <a  class="menuElem" href="">Contact</a>
-        </div> 
-      
+          <a class="menuElem" href="">Contact</a>
+        </div>
+
       </div>
       <a href="tel:+18006082383" class="actionButton">
-        <div class="tel"><div>800-608-2383</div></div>
+        <div class="tel">
+          <div>800-608-2383</div>
+        </div>
       </a>
     </div>
   </div>
 
-  
+
 
 
   <div class="hero">
@@ -74,9 +72,9 @@
           <input type="text" class="heroInput" placeholder="PHONE">
           <button class="heroSubmit">GET A QUOTE</button>
           <div class="formDescription">
-              <div class="formDescriptionContainer">
-                Get a Quote About Design, Fabrication and Installation.
-              </div>
+            <div class="formDescriptionContainer">
+              Get a Quote About Design, Fabrication and Installation.
+            </div>
           </div>
         </div>
       </div>
@@ -84,191 +82,331 @@
   </div>
 
 
-    <div class="container advantages">
-      <div class="row">
-        <div class="col-sm advBlock">
-          <div class="advImg"></div>
-          <div class="advText">
-            NYC’s leader in Indiana Limestone Fabrication
+  <div class="container advantages">
+    <div class="row">
+      <div class="col-sm advBlock">
+        <div class="advImg"></div>
+        <div class="advText">
+          NYC’s leader in Indiana Limestone Fabrication
+        </div>
+      </div>
+      <div class="col-sm advBlock">
+        <div class="advImg"></div>
+        <div class="advText">
+          Founded in 1981
+        </div>
+      </div>
+      <div class="col-sm advBlock">
+        <div class="advImg"></div>
+        <div class="advText">
+          75 mileS radius of NYC
+        </div>
+      </div>
+      <div class="col-sm advBlock">
+        <div class="advImg"></div>
+        <div class="advText">
+          Own manufacturing
+        </div>
+      </div>
+      <div class="col-sm advBlock">
+        <div class="advImg"></div>
+        <div class="advText">
+          3rd generation of stone crafters
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="aboutUs">
+    <div class="aboutTextBlock">
+      <div class="headBlock">
+        <div class="aboutHeader">ABOUT US</div>
+        <div class="headBlockImg"></div>
+      </div>
+      <div class="descrBlock">
+        <p>
+          Carnegie Architectural Stone LLC is New York City’s premier Limestone, Cast Stone and exterior granite
+          fabricator.
+        </p>
+        <p>
+          Founded in 1981 in upstate New York initially as a granite monument fabricators over years Carnegie joint
+          ventured with NYC based cast stone manufacturer Stone Age. Today we are run by 2nd and 3rd generation of stone
+          crafters with decades of industry experience and through continued capital improvements and emphasis on
+          quality Carnegie Architectural Stone has emerged as NYC’s leader in Indiana Limestone Fabrication.
+        </p>
+        <p>
+          Carnegie Architectural Stone LLC specializes in custom fabrication of Indiana Limestone, cast stone and
+          granite for new construction and restoration projects.
+        </p>
+        <p>
+          For more information visit us on contact page or gallery or in one our 2 locations: Offices and Showroom in
+          Sunset Park, Brooklyn or manufacturing facility in Westtown NY.
+        <p>
+      </div>
+    </div>
+    <div class="aboutImgBlock">
+      <div class="inBlockImages">
+        <img src="images/ab1.png" class="img-fluid row-image" alt="Responsive image">
+      </div>
+      <div class="inBlockImages">
+        <img src="images/ab2.png" class="img-fluid row-image" alt="Responsive image">
+      </div>
+      <div class="inBlockImages">
+        <img src="images/ab3.png" class="img-fluid row-image" alt="Responsive image">
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="products">
+    <div class="productsHeader impactHeader">OUR PRODUCTS</div>
+    <div class="productsDescr">“industry best in product quality and customer service.”</div>
+    <div class="container productsExamples">
+      <div class="prContainer">
+        <div class="prBlock">
+          <div class="prBlockImage prImg1">
+            LIMESTONE STONE
+          </div>
+          <div class="actionPrButton">
+            READ MORE
           </div>
         </div>
-        <div class="col-sm advBlock">
-          <div class="advImg"></div>
-          <div class="advText">
-            Founded in 1981
+        <div class="prBlock">
+          <div class="prBlockImage prImg1">
+            granite STONE
+          </div>
+          <div class="actionPrButton">
+            READ MORE
           </div>
         </div>
-        <div class="col-sm advBlock">
-          <div class="advImg"></div>
-          <div class="advText">
-            75 mileS radius of NYC
+        <div class="prBlock">
+          <div class="prBlockImage prImg1">
+            cast STONE
           </div>
-        </div>
-        <div class="col-sm advBlock">
-          <div class="advImg"></div>
-          <div class="advText">
-            Own manufacturing
-          </div>
-        </div>
-        <div class="col-sm advBlock">
-          <div class="advImg"></div>
-          <div class="advText">
-            3rd generation of stone crafters
+          <div class="actionPrButton">
+            READ MORE
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="portfolio">
+    <div class="impactHeader">PORTFOLIO</div>
+
+    <div class="portfolioContainer">
+      <div class="residental">
+        <div class="smallHeader">RESIDENTIAL</div>
+        <div class="imgBlock"><img src="./images/image-asset.jpeg" /></div>
+        <div class="moreButton">EXPLORE MORE</div>
+      </div>
+      <div class="comercia">
+        <div class="smallHeader">COMMERCIAL</div>
+        <div class="imgBlock"><img src="./images/image-asset.jpeg" /></div>
+        <div class="moreButton">EXPLORE MORE</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="showRoom">
+    <div class="srVideo">
+      <div class="videoButton"></div>
+    </div>
+    <div class="shLeftBack">
+      <div class="shLBlock">
+        <div class="shHeader impactHeader">SHOW ROOM</div>
+        <img class="shLeftImage" src="./images/Asset 26.png" />
+      </div>
+    </div>
+    <div class="appButtonContainer">
+      <div class="leftDescr">1117 38th Street Brooklyn, NY 11218</div>
+      <div class="appButton">MAKE AN APPOINTMENT</div>
+    </div>
+  </div>
 
 
 
-    <div class="aboutUs">
-      <div class="aboutTextBlock">
-        <div class="headBlock">
-			<div class="aboutHeader">ABOUT US</div>
-			<div class="headBlockImg"></div>
+  <div class="questions">
+    <div class="queButton">FREQUENTLY ASKED QUESTIONS</div>
+  </div>
+
+
+
+  <div class="downloadCat">
+    <div class="dwContainer">
+
+      <div class="dwHeader impactHeader">DOWNLOAD OUR FREE CATALOG</div>
+      <div class="dwDescr">Bands. Columns. Window Sills. Corbels. Pilasters. Door/Window Trims. Keystones. Headers/ Jack
+        Arches. Door Trim Bases</div>
+      <div class="dwButtCont">
+
+        <div class="actionPrButton">PDF</div>
+        <div class="actionPrButton">DWG</div>
+        <div class="actionPrButton">BOTH</div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="blog">
+    <div class="blogHeader">
+      <span class="blogHeaderText impactHeader">BLOG</span>
+    </div>
+    <div class="impactHeader latestProjects">OUR LATEST PROJECTS</div>
+    <div class="postSlider">
+
+
+
+      <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div>Slide 1</div>
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+          <div class="swiper-slide">
+            <div>Slide 2</div>
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+          <div class="swiper-slide">
+            <div>Slide 3</div>
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+
         </div>
-        <div class="descrBlock">
-		  <p>
-			  Carnegie Architectural Stone LLC is New York City’s premier Limestone, Cast Stone and exterior granite fabricator. 
-		  </p>
-		  <p>
-			  Founded in 1981 in upstate New York initially as a granite monument fabricators over years Carnegie joint ventured with NYC based cast stone manufacturer Stone Age. Today we are run by 2nd and 3rd generation of stone crafters with decades of industry experience and through continued capital improvements and emphasis on quality Carnegie Architectural Stone has emerged as NYC’s leader in Indiana Limestone Fabrication. 
-		  </p>
-		  <p>
-			  Carnegie Architectural Stone LLC specializes in custom fabrication of Indiana Limestone, cast stone and granite for new construction and restoration projects. 
-		  </p>
-		  <p>
-			  For more information visit us on contact page or gallery or in one our 2 locations: Offices and Showroom in Sunset Park, Brooklyn or manufacturing facility in Westtown NY.
-		  <p>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="subscribe">
+    <div class="subscribeHeader">Subscribe for our updates</div>
+    <div class="subscribeFormContainer">
+
+      <input class="subInput" placeholder="Email" />
+      <button class="subSubmit" type='submit'>Subscribe now</button>
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="clients">
+    <div class="clientsHeader">
+      <span class="clientsHeaderText impactHeader">BLOG</span>
+    </div>
+  </div>
+
+
+
+  <div class="clientsSlider">
+    <div class="clientsSliderContainer">
+
+      <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+          <div class="swiper-slide">
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+          <div class="swiper-slide">
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="contact">
+    <div class="contactTextBlock">
+      <div class="contactHeader impactHeader">CONTACT US</div>
+      <div class="contactDescr">
+        <div>Residential & Commercial</div>
+        <div>Limestone Specialists</div>
+      </div>
+      <div class="contactForm">
+
+        <div class="contactInputContainer">
+          <input class="contactIn" type="text">
+          <button class="contactSub" type="submit">SEND</button>
+        </div>
+
+      </div>
+      <div class="contactAddress">
+        <div class="contactAddress">
+          <div>1117 38th Street Brooklyn,</div>
+          <div>NY 11218</div>
+        </div>
+        <div class="contactCoords">
+          <div>T: 800.608.2383</div>
+          <div>F: 718.486.9105</div>
         </div>
       </div>
-      <div class="aboutImgBlock">
-		<div class="inBlockImages">	
-			<img src="images/ab1.png" class="img-fluid row-image" alt="Responsive image">
-		</div>
-		<div class="inBlockImages">	
-			<img src="images/ab2.png" class="img-fluid row-image" alt="Responsive image">
-		</div>
-		<div class="inBlockImages">	
-			<img src="images/ab3.png" class="img-fluid row-image" alt="Responsive image">
-		</div>
-	  
-	  
-	  </div>
     </div>
+    <div class="contactMap">Тут карта</div>
+  </div>
 
-    <div class="products">
-      <div class="productsHeader impactHeader">OUR PRODUCTS</div>
-      <div class="productsDescr">“industry best in product quality and customer service.”</div>
-      <div class="container productsExamples">
-        <div class="prContainer">
-          <div class="prBlock">
-            <div class="prBlockImage prImg1">
-              LIMESTONE STONE
-            </div>
-            <div class="actionPrButton">
-              READ MORE
-            </div>
-          </div>
-          <div class="prBlock">
-            <div class="prBlockImage prImg1">
-              granite STONE
-            </div>
-            <div class="actionPrButton">
-              READ MORE
-            </div>
-          </div>
-          <div class="prBlock">
-            <div class="prBlockImage prImg1">
-              cast STONE
-            </div>
-            <div class="actionPrButton">
-              READ MORE
-            </div>
-          </div>
+
+
+
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="top">
+      <div class="footerLogo">
+        <img src="./images/Stone_1.png" alt="">
+      </div>
+      <div class="footerMenu">
+        <div class="menuLi">FAQ</div>
+        <div class="menuLi">Privacy Policy</div>
+        <div class="menuLi">Terms & Conditions</div>
+        <div class="menuLi">Facebook</div>
+        <div class="menuLi">Pinterest</div>
+        <div class="menuLi">Instagram</div>
+      </div>
+      <div class="footerForm">
+        <div class="footerFormDescr">Subscribe to our newsletter</div>
+        <div class="footerInputContainer">
+          <input class="footerIn" type="text">
+          <button class="footerSub" type="submit">OK</button>
         </div>
+      </div>
+      <div class="footerContact">
+        <div>1117 38th Street, Brooklyn, NY 11218</div>
+        <div>+1.800.608.2383</div>
+        <div>text@mail.com</div>
+      </div>
     </div>
-  </div>
-
-<div class="portfolio">
-  <div class="impactHeader">PORTFOLIO</div>
-  
-  <div class="portfolioContainer">
-    <div class="residental">
-      <div class="smallHeader">RESIDENTIAL</div>
-      <div class="imgBlock"><img src="./images/image-asset.jpeg"/></div>
-      <div class="moreButton">EXPLORE MORE</div>
-    </div>
-    <div class="comercia">
-      <div class="smallHeader">COMMERCIAL</div>
-      <div class="imgBlock"><img src="./images/image-asset.jpeg"/></div>
-      <div class="moreButton">EXPLORE MORE</div>
-    </div>
-  </div>
-</div>
-
-
-<div class="showRoom">
-  <div class="srVideo">
-    <div class="videoButton"></div>
-  </div>
-  <div class="shLeftBack">
-    <div class="shLBlock">
-      <div class="shHeader impactHeader">SHOW ROOM</div>
-      <img class="shLeftImage" src="./images/Asset 26.png"/>
-    </div>
-  </div>
-  <div class="appButtonContainer">
-    <div class="leftDescr">1117 38th Street Brooklyn, NY 11218</div>
-    <div class="appButton">MAKE AN APPOINTMENT</div>
-  </div>
-</div>
-
-
-
-<div class="questions">
-  <div class="queButton">FREQUENTLY ASKED QUESTIONS</div>
-</div>
-</div>
-
-
-
-<div class="downloadCat">
-  <div class="dwContainer">
-
-    <div class="dwHeader impactHeader">DOWNLOAD OUR FREE CATALOG</div>
-    <div class="dwDescr">Bands. Columns. Window Sills. Corbels. Pilasters. Door/Window Trims. Keystones. Headers/ Jack Arches. Door Trim Bases</div>
-    <div class="dwButtCont">
-      
-      <div class="actionPrButton">PDF</div>
-      <div class="actionPrButton">DWG</div>
-      <div class="actionPrButton">BOTH</div>
-
-    </div>
-  </div>
-</div>
-
-
-
-<div class="blog">
-  <div class="blogHeader impactHeader">BLOG</div>
-  <div class="impactHeader latestProjects">OUR LATEST PROJECTS</div>
-  <div class="postSlider">
-    SLider
-  </div>
-</div>
-
-
-
-<div class="subscribe">
-  <div class="subscribeHeader">#707070</div>
-  <div class="impactHeader latestProjects">OUR LATEST PROJECTS</div>
-  <div class="postSlider">
-    SLider
-  </div>
-</div>
-
-
+    <div class="footerCopyright">Copyright © 2020 Architectural Stone, LLC</div>
+  </footer>
 
 
 
@@ -278,6 +416,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
   <script src="js/index.js" charset="utf-8"></script>
 </body>
 </html>
