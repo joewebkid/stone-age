@@ -507,10 +507,22 @@ a:hover {
 }
 .dwContainer {
   background: url(../images/AdobeStock_265310585.png) padding-box;
+  position: relative;
   z-index: -1;
   width: 848px;
   height: 400px;
   padding-top: 68px;
+}
+.dwContainer:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: -50px;
+  left: 0;
+  background: url(../images/Asset\ 15.png) no-repeat padding-box;
+  background-size: contain;
+  background-position: center;
 }
 .dwDescr {
   text-align: center;
@@ -664,7 +676,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 200px;
+  min-height: 200px;
   width: 100%;
   padding: 0 100px;
   font-family: Arial;
@@ -673,6 +685,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -683,8 +696,15 @@ a:hover {
 .footerMenu {
   display: flex;
   flex-wrap: wrap;
-  width: 240px;
+  width: 255px;
   justify-content: space-between;
+}
+.menuLi {
+  font-size: 14px;
+}
+.ftMenuContLeft {
+  width: 125px;
+  margin-right: 60px;
 }
 .footerFormDescr {
   font-size: 14px;
