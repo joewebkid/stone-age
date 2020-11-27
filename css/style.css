@@ -139,7 +139,12 @@ a:hover {
   padding-bottom: 40px;
 }
 .heroForm {
-  width: 368px;
+  width: 90%;
+  max-width: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .heroInput {
   height: 43px;
@@ -147,7 +152,8 @@ a:hover {
   border: 4px #dfcfba solid;
   outline: none;
   padding: 0 10px;
-  width: 368px;
+  width: 90%;
+  max-width: 368px;
   margin-bottom: 15px;
   box-shadow: 0px 3px 6px #00000093;
 }
@@ -155,7 +161,8 @@ a:hover {
   font-size: 18px;
   font-weight: bold;
   background: #dfcfba;
-  width: 368px;
+  width: 90%;
+  max-width: 368px;
   height: 73px;
   box-shadow: 0px 3px 6px #00000093;
   border: 0;
@@ -168,10 +175,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 90px;
-  width: 368px;
+  width: 90%;
+  max-width: 368px;
 }
 .formDescriptionContainer {
-  width: 259px;
+  width: 90%;
+  max-width: 259px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -268,7 +277,8 @@ a:hover {
 }
 
 .descrBlock {
-  width: 340px;
+  width: 90%;
+  max-width: 340px;
 }
 
 .descrBlock p {
@@ -297,6 +307,7 @@ a:hover {
 .productsDescr {
   font-size: 24px;
   font-weight: bold;
+  width: 90%;
   max-width: 464px;
   margin: auto;
 }
@@ -351,6 +362,7 @@ a:hover {
   background-size: 90% 90% !important;
   background-position: center !important;
   text-transform: uppercase;
+  padding: 0 50px;
 }
 
 .prImg1 {
@@ -735,6 +747,7 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
+  padding: 0 30px;
 }
 .contactHeader.impactHeader {
   text-align: left;
@@ -778,7 +791,11 @@ a:hover {
   margin-right: 81px;
 }
 .contactMap {
-  min-width: 320px;
+  min-width: 320px;    
+  margin-left: 60px;
+  flex: 1;
+  height: 400px;
+  border: 1px solid #eee;
 }
 /*  */
 .footer {
@@ -1055,5 +1072,32 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 20px;
+  }
+  .heroText {
+    font-size: 2.9em;
+    padding: 10px;
+  }
+  .brandText {
+    font-size: 15px;
+  }
+  .aboutImgBlock{
+    min-width: 90%;
+  }
+  .contactMap {    
+    margin-left: 0;
+    min-width: 90%;
+  }
+  /**/
+  .prBlockImage  {
+    width: 295px;    
+  }
+
+  .logo {
+    width: 80px;
+  }
+  .brandText {
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 10px;
   }
 }
