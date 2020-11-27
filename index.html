@@ -26,33 +26,37 @@
   </style>
 
   <div class="header inMainPage">
-    <div class="container flexContainer headerContainer">
+    <div class="container navbar navbar-expand-lg navbar-light flexContainer headerContainer">
       <div class="brand">
         <img src="./images/Stone_1.png" alt="Logo" class="logo">
         <div class="brandText">CARNEGIE Architectural Stone</div>
       </div>
       <div class="menuContainer">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="menuList">
-          <a class="menuElem" href="">Home</a>
-          <a class="menuElem" href="">About</a>
-          <a class="menuElem" href="">Portfolio</a>
-          <a class="menuElem" href="">Faq</a>
-          <a class="menuElem" href="">Product</a>
-          <a class="menuElem" href="">Contact</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="menuList">
+            <a class="menuElem" href="">Home</a>
+            <a class="menuElem" href="">About</a>
+            <a class="menuElem" href="">Portfolio</a>
+            <a class="menuElem" href="">Faq</a>
+            <a class="menuElem" href="">Product</a>
+            <a class="menuElem" href="">Contact</a>
+          </div>
         </div>
 
       </div>
-      <a href="tel:+18006082383" class="actionButton">
+
+      <a href="tel:+18006082383" class="actionButton d-none d-md-block">
         <div class="tel">
           <div>800-608-2383</div>
         </div>
       </a>
     </div>
   </div>
-
-
-
 
   <div class="hero">
     <div class="backgroundBlock">
@@ -259,11 +263,11 @@
       <span class="blogHeaderText impactHeader">BLOG</span>
     </div>
     <div class="impactHeader latestProjects">OUR LATEST PROJECTS</div>
-    <div class="postSlider">
+    <div class="postSlider sliderSwFixCss">
 
 
 
-      <div class="swiper-container">
+      <div class="swiper-container pstSwiper">
 
         <div class="swiper-wrapper">
 
@@ -284,7 +288,6 @@
 
         <div class="swiper-pagination"></div>
 
-        <div class="swiper-scrollbar"></div>
       </div>
 
 
@@ -309,13 +312,13 @@
 
   <div class="clients">
     <div class="clientsHeader">
-      <span class="clientsHeaderText impactHeader">BLOG</span>
+      <span class="clientsHeaderText impactHeader">OUR CLIENTS</span>
     </div>
   </div>
 
 
 
-  <div class="clientsSlider">
+  <div class="clientsSlider sliderSwFixCss">
     <div class="clientsSliderContainer">
 
       <div class="swiper-container">
@@ -331,12 +334,16 @@
           <div class="swiper-slide">
             <img class="postImage" src='./images/Background.jpeg' />
           </div>
+          <div class="swiper-slide">
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
+          <div class="swiper-slide">
+            <img class="postImage" src='./images/Background.jpeg' />
+          </div>
 
         </div>
 
         <div class="swiper-pagination"></div>
-
-        <div class="swiper-scrollbar"></div>
       </div>
 
     </div>
