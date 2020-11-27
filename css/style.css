@@ -168,9 +168,6 @@ a:hover {
   font-weight: 700;
 }
 
-.advantages {
-  padding: 40px 140px;
-}
 .backgroundBlock {
   position: absolute;
   z-index: -1;
@@ -188,11 +185,16 @@ a:hover {
 }
 /* ---advantages--- */
 .advantages {
-  margin-top: 20px;
+  /* padding: 40px 140px; */
+  width: 90%;
+  max-width: 1150px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 .advBlock {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -209,13 +211,14 @@ a:hover {
 }
 .advText {
   margin-top: 20px;
-  height: 40px;
+  /* height: 40px; */
 }
 /* ------ */
 /* ---advantages--- */
 .aboutUs {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .headBlock {
@@ -258,6 +261,9 @@ a:hover {
   width: max-content;
   height: auto;
   margin-top: 50px;
+}
+.inBlockImages img {
+  max-width: 400px;
 }
 /* ------ */
 .products {
@@ -394,6 +400,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 .smallHeader {
   font-size: 44px;
@@ -419,7 +426,8 @@ a:hover {
   position: relative;
 }
 .srVideo {
-  width: 845px;
+  max-width: 845px;
+  width: 90%;
   height: 431px;
   border: 1px solid #95989a;
 }
@@ -457,7 +465,8 @@ a:hover {
 }
 .appButtonContainer {
   margin-top: 40px;
-  width: 845px;
+  width: 90%;
+  max-width: 845px;
   display: flex;
   justify-content: flex-end;
 }
@@ -483,11 +492,12 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: chocolate;
+  background: url("../images/StoneAge-40.png");
   margin: 110px 0;
 }
 .queButton {
-  width: 749px;
+  max-width: 749px;
+  width: 90%;
   height: 64px;
   font-size: 24px;
   font-weight: 600;
@@ -509,8 +519,9 @@ a:hover {
   background: url(../images/AdobeStock_265310585.png) padding-box;
   position: relative;
   z-index: -1;
-  width: 848px;
-  height: 400px;
+  width: 90%;
+  max-width: 848px;
+  min-height: 400px;
   padding-top: 68px;
 }
 .dwContainer:before {
@@ -529,12 +540,18 @@ a:hover {
   margin: auto;
   margin-top: 39px;
   margin-bottom: 49px;
-  width: 590px;
+  width: 90%;
+  max-width: 590px;
 }
 .dwButtCont {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.dwButtCont .actionPrButton {
+  margin: 10px auto;
 }
 
 /*  */
@@ -592,11 +609,13 @@ a:hover {
 }
 .subInput {
   padding: 11px 36px;
-  width: 593px;
+  max-width: 593px;
+  height: 51px;
   font-size: 22px;
+  flex: 1;
 }
 .subSubmit {
-  width: 381px;
+  max-width: 381px;
   height: 51px;
   border: 0;
   margin-left: 31px;
@@ -604,6 +623,7 @@ a:hover {
   background: #fff;
   font-size: 24px;
   font-weight: 600;
+  flex: 1;
 }
 .subscribeHeader {
   font-size: 38px;
@@ -611,7 +631,8 @@ a:hover {
   margin-bottom: 22px;
 }
 .subscribeFormContainer {
-  width: 1010px;
+  max-width: 1010px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -639,9 +660,13 @@ a:hover {
 /*  */
 .contact {
   margin-top: 160px;
+  margin-bottom: 160px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.contactHeader.impactHeader {
+  text-align: left;
 }
 .contactTextBlock {
   padding-left: 120px;
@@ -663,11 +688,21 @@ a:hover {
   border: 1px solid #bfb7b7;
   width: 340px;
   height: 40px;
+  margin-right: 20px;
 }
 .contactSub {
   background: #f3eeee;
   width: 120px;
   height: 40px;
+  border: 0;
+}
+.contactAddressContainer {
+  display: flex;
+  margin-top: 76px;
+}
+.contactAddress {
+  font-size: 18px;
+  margin-right: 81px;
 }
 /*  */
 .footer {
